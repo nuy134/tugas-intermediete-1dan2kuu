@@ -158,16 +158,16 @@ const MapUtil = {
         let styleUrl = MAP_STYLE_URL;
         switch(styleKey) {
           case 'streets':
-            styleUrl = 'https://api.maptiler.com/maps/streets/style.json?key=X5FvjDiGuHxAtiw6WFj7';
+            styleUrl = 'https://api.maptiler.com/maps/streets/style.json?key=V211mzRaptg4JoaknORo';
             break;
           case 'satellite':
-            styleUrl = 'https://api.maptiler.com/maps/hybrid/style.json?key=X5FvjDiGuHxAtiw6WFj7';
+            styleUrl = 'https://api.maptiler.com/maps/hybrid/style.json?key=V211mzRaptg4JoaknORo';
             break;
           case 'terrain':
-            styleUrl = 'https://api.maptiler.com/maps/topo/style.json?key=X5FvjDiGuHxAtiw6WFj7';
+            styleUrl = 'https://api.maptiler.com/maps/topo/style.json?key=V211mzRaptg4JoaknORo';
             break;
           case 'dark':
-            styleUrl = 'https://api.maptiler.com/maps/basic-dark/style.json?key=X5FvjDiGuHxAtiw6WFj7';
+            styleUrl = 'https://api.maptiler.com/maps/basic-dark/style.json?key=V211mzRaptg4JoaknORo';
             break;
         }
         map.setStyle(styleUrl);
