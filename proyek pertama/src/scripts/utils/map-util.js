@@ -1,7 +1,7 @@
 import 'maplibre-gl/dist/maplibre-gl.css';
 import maplibregl from 'maplibre-gl';
 
-const MAP_STYLE_URL = 'https://api.maptiler.com/maps/streets/style.json?key=X5FvjDiGuHxAtiw6WFj7';
+const MAP_STYLE_URL = 'https://api.maptiler.com/maps/streets/style.json?key=V211mzRaptg4JoaknORo';
 
 const MapUtil = {
   _maps: {},
